@@ -1,7 +1,12 @@
 # Introduction-into-ROS
+
 Project that introduces us into how we can use ROS. We  read data from .csv table, containing weather parameters, and then process, display and store them.
 
-Instructions for running the scripts, using ROS:
+**Project description**
+
+We create separate node for every action that is needed to be implemented: loading data in measurements node, processing data in processing node, displayment of data in display node and action node for signalization of specific occurrences in data. All nodes communicate through topics, and structure of topics and nodes used in the project is displayed in graph.png. We added an option of adding new data, and this functionality is realized using service add_new_values.
+
+**Instructions for running the scripts using ROS**
 
 1. Run terminal on your Linux PC, and run command roscore.
 2. Use cd command to navigate ro src directory of the project.
