@@ -1,5 +1,0 @@
-float32 new_max
-float32 new_min
-float32 new_avg
----
-bool response
